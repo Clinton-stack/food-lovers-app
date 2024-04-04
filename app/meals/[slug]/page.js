@@ -13,7 +13,6 @@ export async function generateMetadata({params}){
     return {
         title: meal.title,
         description: meal.summary,
-        image: `https://food-lovers-bucket.s3.amazonaws.com/${meal.image}`
     }
 }
 
